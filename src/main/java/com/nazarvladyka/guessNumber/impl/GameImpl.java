@@ -50,6 +50,11 @@ public class GameImpl implements Game {
     }
 
     @Override
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    @Override
     public int getGuess() {
         return guess;
     }

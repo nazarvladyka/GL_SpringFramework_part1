@@ -8,6 +8,8 @@ public interface Game {
 
     int getNumber();
 
+    void setNumber(int number);
+
     int getGuess();
 
     void setGuess(int guess);
